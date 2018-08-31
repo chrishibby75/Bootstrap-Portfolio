@@ -13,3 +13,33 @@
     border-top: 5px solid #4aaaa5;
     text-align: center;
   }
+
+  .img {
+      float: left;
+      margin: 5px;
+      height: 200px;
+      width: 200px;
+  }
+
+  .img1 {
+    position: relative;
+    display: inline-block;
+    margin: 40px;
+  }
+
+  .tag {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    text-align: center;
+    bottom: 20px;
+}
+
+@media only screen and (min-width: 550px) {
+    .img {margin: 5px;
+          height: 200px;
+          width: 200px;  
+    }
+
+}
